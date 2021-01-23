@@ -15,7 +15,13 @@
 	```
 ## adding modules
 - storybook
-	
+	```sh
+	yarn sb init
+	```
+- Material UI
+	```sh
+	yarn add @material-ui/core
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIxNDMxNzI1NThdfQ==
 -->
