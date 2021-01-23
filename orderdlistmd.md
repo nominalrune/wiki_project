@@ -1,5 +1,5 @@
 # orderdList.md
 
 ```css
-ol{list-style-type:none;counter-reset:item;margin:0;padding:0;}li{display:table;counterli:before{content:counters(item,".") ". ";display:table-cell;padding-right:.6em}li li{margin:0;}li li:before{content:counters(item,".") " ";}
+ol{list-style-type:none;counter-reset:item;margin:0;padding:0;}li{display:table;counter-increment:item;margin-bottom:.6em;}li:before{content:counters(item,".") ". ";display:table-cell;padding-right:.6em}li li{margin:0;}li li:before{content:counters(item,".") " ";}
 ```
