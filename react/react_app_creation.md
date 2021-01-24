@@ -23,7 +23,7 @@
 	```sh
 	yarn add @material-ui/core
 	```
-- Material UI
+- Jest
 	```sh
 	yarn add @material-ui/core
 	```
