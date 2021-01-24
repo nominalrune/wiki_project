@@ -25,7 +25,7 @@
 	```
 - Jest
 	```sh
-	yarn add -D ts-jest 
+	yarn add -D ts-jest ts-node
 	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIxNDMxNzI1NThdfQ==
