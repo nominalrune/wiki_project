@@ -1,5 +1,5 @@
 # work/都道府県振り分け.md
-```
+```ts
 const list = {
 	sapporo: ['北海道'],
 	morioka: ['青森県', '秋田県', '岩手県'],
