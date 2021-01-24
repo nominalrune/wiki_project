@@ -25,6 +25,10 @@
 	```sh
 	yarn add @material-ui/core
 	```
+- Material UI
+	```sh
+	yarn add @material-ui/core
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIxNDMxNzI1NThdfQ==
 -->
