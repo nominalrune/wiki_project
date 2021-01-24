@@ -25,7 +25,7 @@
 	```
 - Jest
 	```sh
-	yarn add @material-ui/core
+	yarn add -D 
 	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIxNDMxNzI1NThdfQ==
