@@ -1,6 +1,6 @@
 # INSTALL
 
-For Cent
+For CentOS7
 ```sh
 echo SELINUX=disabled >> /etc/selinux/semanage.conf
 echo \
