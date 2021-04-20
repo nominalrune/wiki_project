@@ -15,4 +15,4 @@ mysql> SHOW FIELDS FROM wp_options;
 
 SELECT * FROM wp_options WHERE option_value LIKE '%https://hogehoge%';
 であぶり出す。ALLinOneSEOがひどいことになっている。
-UPDATE wp_options SET wp_options="https://127.0.0.1:2443/" WHERE option_value LIKE "%https://pauls%";
+UPDATE paulsenglish_wt1.wp_options SET wp_options="https://127.0.0.1:2443/" WHERE option_value LIKE "%https://pauls%";
