@@ -9,3 +9,6 @@ mysql> SHOW FIELDS FROM wp_options;
 | option_value | longtext            | NO   |     | NULL    |                |
 | autoload     | varchar(20)         | NO   | MUL | yes     |                |
 +--------------+---------------------+------+-----+---------+----------------+
+
+
+
