@@ -1,6 +1,6 @@
-# WP
-
-こｋにURLがたんまり入っている。
+# BaseURLのありか
+- DBテーブルwp_optionsに入っている。
+　
 mysql> SHOW FIELDS FROM wp_options;
 +--------------+---------------------+------+-----+---------+----------------+
 | Field        | Type                | Null | Key | Default | Extra          |
