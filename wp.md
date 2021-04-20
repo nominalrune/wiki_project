@@ -1,5 +1,5 @@
 # WP
-こｋにURLがたんまり入っている・
+こｋにURLがたんまり入っている。
 mysql> SHOW FIELDS FROM wp_options;
 +--------------+---------------------+------+-----+---------+----------------+
 | Field        | Type                | Null | Key | Default | Extra          |
