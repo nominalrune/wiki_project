@@ -1,6 +1,6 @@
 # INSTALL
 
-For 
+For Cent
 ```sh
 echo SELINUX=disabled >> /etc/selinux/semanage.conf
 echo \
