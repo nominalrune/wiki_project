@@ -16,6 +16,6 @@ baseurl=http://nginx.org/packages/mainline/centos/7/SRPMS/
 gpgcheck=1
 enabled=O
 gpgkey=http://nginx.org/keys/nginx_signing.key
-" |> /etc/yum.repos.d/nginx.repo
+" |>1 /etc/yum.repos.d/nginx.repo
 yum install -y nginx yum-cron
 ```
