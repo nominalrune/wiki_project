@@ -13,4 +13,4 @@ mysql> SHOW FIELDS FROM wp_options;
 
 
 SELECT * FROM wp_options WHERE option_value LIKE '%https://hogehoge%';
-であぶり出す。ALLいｎOneSEOがひどいことになっている。」
+であぶり出す。ALLinｎOneSEOがひどいことになっている。」
