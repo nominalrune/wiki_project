@@ -1,4 +1,4 @@
-# install.md
+# INSTALL
 
 
 ## install
