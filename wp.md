@@ -12,3 +12,4 @@ mysql> SHOW FIELDS FROM wp_options;
 
 
 
+https://paulsenglish.jp
