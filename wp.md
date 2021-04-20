@@ -12,4 +12,4 @@ mysql> SHOW FIELDS FROM wp_options;
 
 
 
-SELECT * FROM wp_options WHERE option_value LIKE '%https://paulsenglish.jp%';
+SELECT * FROM wp_options WHERE option_value LIKE '%https://hogehoge%';
