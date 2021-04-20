@@ -10,25 +10,6 @@
 	- ロードバランサやリバースプロキシの設定が容易
 	- nginxにHTTPSの処理を担当させて、暗号化を解いた状態で、別のWebサーバーにアクセスを転送するような使い方もあり
 # 基本
-## install
-```sh
-echo SELINUX=disabled >> /etc/selinux/semanage.conf
-echo \
-"[nginx] \n\
-name=nginx repo \n\
-baseurl=http://nginx.org/packages/mainline/centos/7/$basearch/ \n\
-gpgcheck=l \n\
-enabled=l \n\
-gpgkey=http://nginx.org/keys/nginx_signing.key \n\
-[nginx-source] \n\
-name=nginx source \n\
-baseurl=http://nginx.org/packages/mainline/centos/7/SRPMS/ \n\
-gpgcheck=1 \n\
-enabled=O \n\
-gpgkey=http://nginx.org/keys/nginx_signing.key \
-" > /etc/yum.repos.d/nginx.repo
-yum install -y nginx yum-cron
-```
 
 ## ディレクトリの構成
 
