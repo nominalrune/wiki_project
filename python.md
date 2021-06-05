@@ -2,7 +2,7 @@
 ## main.py
 ```py
 
-
+```
 
 ## Array
 array`col`がある。
