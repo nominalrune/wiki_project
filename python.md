@@ -1,7 +1,7 @@
 # Python
 ## main.py
 ```py
-def main(args):
+def main(gs):
  pass
 ```
 
