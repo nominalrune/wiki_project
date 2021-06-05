@@ -1,7 +1,8 @@
 # Python
 ## main.py
 ```py
-de
+def name(args):
+ pass
 ```
 
 ## Array
