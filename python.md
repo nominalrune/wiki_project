@@ -2,7 +2,7 @@
 ## main.py
 ```py
 def main():
-	
+  
 ```
 
 ## Array
