@@ -3,7 +3,7 @@
 ```py
 def main():
   # include whatever
-if __name 
+if __nam__ = 
 ```
 
 ## Array
