@@ -1,4 +1,4 @@
 # Growi
 
-mk
+mkdir 
 git clone https://github.com/weseek/growi /opt/growi
