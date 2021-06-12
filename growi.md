@@ -1,6 +1,6 @@
 # Growi
 
-[mongo]
+- [mongo]
 - failed
 	- [elasticsearch]
 
