@@ -11,7 +11,7 @@ ln -s /home/paulsenglish/bin/node14/bin/npm /home/paulsenglish/bin/npm
 ln -s /home/paulsenglish/bin/node14/bin/npx /home/paulsenglish/bin/npx
 ln -s /home/paulsenglish/bin/node14/bin/serve /home/paulsenglish/bin/serve
 
-ln -s /home/paulsenglish/bin/mongo4.4.6/bin/monge /home/paulsenglish/bin/node
-ln -s /home/paulsenglish/bin/mongo4.4.6/bin/mong /home/paulsenglish/bin/npm
-ln -s /home/paulsenglish/bin/mongo4.4.6/bin/mong /home/paulsenglish/bin/npx
+ln -s /home/paulsenglish/bin/mongo4.4.6/bin/mongoe /home/paulsenglish/bin/node
+ln -s /home/paulsenglish/bin/mongo4.4.6/bin/mongo /home/paulsenglish/bin/npm
+ln -s /home/paulsenglish/bin/mongo4.4.6/bin/mongo /home/paulsenglish/bin/npx
 ```
