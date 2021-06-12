@@ -5,6 +5,6 @@
 ln -s path/to/executable executable
 ```
 e.g.
-```sh
+- ```sh
 ln -s path/to/executable executable
 ```
