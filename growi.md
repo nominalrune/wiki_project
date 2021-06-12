@@ -1,6 +1,7 @@
 # Growi
 
 [mongo]
+[]
 
 
 cd /home
