@@ -2,5 +2,5 @@
 
 # Symlink
 ```sh
-ln -s path/to/executable target
+ln -s path/to/executable target_name
 ```
