@@ -1,5 +1,6 @@
 # Linux
 
 # Symlink
-```
+```sh
+
 ```
