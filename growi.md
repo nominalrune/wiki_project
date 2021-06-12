@@ -1,6 +1,6 @@
 # Growi
 
-
+[]
 
 
 cd /home
