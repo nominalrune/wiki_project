@@ -1,3 +1,4 @@
 # Linux
 
-# S
+# Symlink
+
