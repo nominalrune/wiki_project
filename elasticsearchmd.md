@@ -21,7 +21,6 @@ ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/elasticsearch-service-toke
 ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/elasticsearch-setup-passwords /home/paulsenglish/bin/elasticsearch-setup-passwords
 ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/elasticsearch-shard /home/paulsenglish/bin/elasticsearch-shard
 ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/elasticsearch-sql-cli /home/paulsenglish/bin/elasticsearch-sql-cli
-ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/elasticsearch-sql-cli-7.13.1.jar /home/paulsenglish/bin/elasticsearch-sql-cli-7.13.1.jar
 ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/elasticsearch-syskeygen /home/paulsenglish/bin/elasticsearch-syskeygen
 ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/elasticsearch-users /home/paulsenglish/bin/elasticsearch-users
 ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/x-pack-env /home/paulsenglish/bin/x-pack-env
