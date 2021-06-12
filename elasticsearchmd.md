@@ -31,3 +31,6 @@ ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/x-pack-watcher-env /home/p
 
 
 elasticsearch-plugin install analysis-kuromoji
+
+
+
