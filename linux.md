@@ -6,6 +6,6 @@ ln -s path/to/executable executable
 ```
 e.g.
 - ```sh
-ln -s /home/paulsenglish/bin
+ln -s /home/paulsenglish/bin/
 
 ```
