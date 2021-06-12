@@ -1,7 +1,8 @@
 # Growi
 
 - [mongo]
-	- [elasticsearch]
+- [elasticsearch]
+- failed
 
 
 cd /home
