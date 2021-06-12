@@ -27,3 +27,7 @@ ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/x-pack-env /home/paulsengl
 ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/x-pack-security-env /home/paulsenglish/bin/x-pack-security-env
 ln -s /home/paulsenglish/bin/elasticsearch-7.13.1/bin/x-pack-watcher-env /home/paulsenglish/bin/x-pack-watcher-env
 ```
+
+
+
+elasticsearch-plugin install analysis-kuromoji
