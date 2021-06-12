@@ -16,3 +16,4 @@ yarn
 ```
 
 
+/home/paulsenglish/opt/growi/config/env.prod.js
