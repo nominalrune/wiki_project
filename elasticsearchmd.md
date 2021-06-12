@@ -105,5 +105,5 @@ java.security.AccessControlException: access denied ("java.io.FilePermission" "/
 
 elasticsearch-plugin install analysis-kuromoji
 
-
+elasticsearch-plugin install analysis-icu
 
