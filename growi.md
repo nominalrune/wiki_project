@@ -18,5 +18,11 @@ yarn
 
 /home/paulsenglish/opt/growi/config/env.prod.js
 ```js
+module.exports = {
+  NODE_ENV: 'production',
+  // ELASTICSEARCH_URI='http://localhost:9200/growi',
+  MONGO_URI='mongodb://localhost:27017/growi'
+  // FORMAT_NODE_LOG: false, // default: true
+};
 
 ```
