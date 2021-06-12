@@ -1,7 +1,7 @@
 # Growi
 
 [mongo]
-[]
+[elasticsearch]
 
 
 cd /home
