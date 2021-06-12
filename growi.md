@@ -2,7 +2,7 @@
 
 - [mongo]
 - [elasticsearch]
-- failed
+	- failed
 
 
 cd /home
