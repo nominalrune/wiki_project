@@ -2,5 +2,5 @@
 
 # Symlink
 ```sh
-ln -s 
+ln -s path/to/
 ```
