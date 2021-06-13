@@ -35,4 +35,4 @@ mongod --dbpath=/home/paulsenglish/mongo/db
 結局、[2021-06-13T02:16:09.189Z]  INFO: growi:service:search/199696 on sv8238.xserver.jp: Initializing search delegator
 [2021-06-13T02:16:09.882Z]  INFO: growi:crowi/199696 on sv8238.xserver.jp: [production] Express server is listening on port 3000
 までたどり着いたが、RewriteEnginの設定の仕方がわからない。
-どうやら、growiは3000ばんそけっと
+どうやら、growiは3000版ソケットを直接るしゅ
