@@ -4,7 +4,7 @@ type BasicPrimitive=boolean|number|string;
  * stores key-value variables.<br/>
  * each `key` must be `string` and `value` be scalar (boolean, number, string).<br/><br/>
  * When called, this returns `getStore()` and `setStore()`:
- * - `getStore(key:string)`
+ * - `getStore(key)`
  *   - gets `value` corresponds to the givven key.
  * - `setStore(key, )`
  */
