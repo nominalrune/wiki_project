@@ -1,4 +1,5 @@
 type BasicPrimitive=boolean|number|string;
+
 /**
  * returns `getStore()` and `setStore()`
  *
