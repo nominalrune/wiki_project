@@ -3,13 +3,13 @@ type BasicPrimitive=boolean|number|string;
 /**
  * Stores key-value variables.
  * 
- * Each `key` must be `string` and `value` be scalar (boolean, number, string).
- * 
  * When called, this returns `getStore()` and `setStore()`:
  * - `getStore(key)`
  *   - gets `value` corresponds to the givven key.
  * - `setStore(key, value)`
  *   - sets `key` and `value`, this overwrites the value when it's already set. Then returns a single `{key:value}` set of onject.
+ * 
+ * Each `key` must be `string` and `value` be scalar (boolean, number, string).
  */
 function useStore() {
 	const store: {[key:string]:BasicPrimitive} = {};
