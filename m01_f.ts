@@ -5,7 +5,7 @@ type BasicPrimitive=boolean|number|string;
  * each `key` must be `string` and `value` be scalar (boolean, number, string).<br/><br/>
  * When called, this returns `getStore()` and `setStore()`:
  * - `getStore(key:string)`
- *   - gets `value` corresponds to 
+ *   - gets `value` corresponds to the 
  * 
  */
 function useStore() {
