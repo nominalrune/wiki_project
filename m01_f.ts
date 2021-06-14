@@ -6,7 +6,7 @@ type BasicPrimitive=boolean|number|string;
  * When called, this returns `getStore()` and `setStore()`:
  * - `getStore(key:string)`
  *   - gets `value` corresponds to the givven key.
- * - `setStore(k)`
+ * - `setStore(key, )`
  */
 function useStore() {
 	const store: {[key:string]:BasicPrimitive} = {};
