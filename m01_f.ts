@@ -3,7 +3,7 @@ type BasicPrimitive=boolean|number|string;
 /**
  * stores key-value variables.<br/>
  * When called, returns `getStore()` and `setStore()`:
- * - `getStore(kry:string)` 
+ * - `getStore(kry:string)` gets 
  * 
  */
 function useStore() {
