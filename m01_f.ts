@@ -1,7 +1,7 @@
 type BasicPrimitive=boolean|number|string;
 
 /**
- * returns `getStore()` and `setStore()`
+ * returns `getStore()` and `setStore()`:
  * - `getStore()`
  * 
  */
