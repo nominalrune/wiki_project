@@ -1,7 +1,6 @@
 from typing import Union
 T = Union[bool, int, float, str]
-x = ascii('My name is Ståle')
-print(x)
+x = a
 
 def use_store():
   """
