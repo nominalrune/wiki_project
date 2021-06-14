@@ -7,7 +7,7 @@ type BasicPrimitive=boolean|number|string;
  * - `getStore(key)`
  *   - gets `value` corresponds to the givven key.
  * - `setStore(key, value)`
- *   - sets `key` and `value`, this overwrites the value when value already there. Then returns a single `{key:value}` set of onject.
+ *   - sets `key` and `value`, this overwrites the value when the key already there. Then returns a single `{key:value}` set of onject.
  */
 function useStore() {
 	const store: {[key:string]:BasicPrimitive} = {};
