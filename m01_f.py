@@ -3,29 +3,29 @@ T = Union[bool, int, float, str]
 
 
 def use_store():
-"""
-Stores key-value variables.
+  """
+  Stores key-value variables.
 
-When called, this returns `getStore()` and `setStore()`:
-- `getStore(key)`
-  - gets `value` corresponds to the given key.
-- `setStore(key, value)`
-  - sets `key` and `value`, this overwrites the value when it's already set. Then returns a ingle `{key:value}` set of onject.
+  When called, this returns `getStore()` and `setStore()`:
+  - `getStore(key)`
+    - gets `value` corresponds to the given key.
+  - `setStore(key, value)`
+    - sets `key` and `value`, this overwrites the value when it's already set. Then returns a ingle `{key:value}` set of onject.
 
-Notice each `key` must be `string` and `value` be scalar (that is, boolean, number, string).
-"""
-  store: dict[str, T] = {}
+  Notice each `key` must be `string` and `value` be scalar (that is, boolean, number, string).
+  """
+    store: dict[str, T] = {}
 
-  def get_store(key: str):
-    return {key: store[key]} if key in store else None
+    def get_store(key: str):
+      return {key: store[key]} if key in store else None
 
-  def set_store(key: str, value: T) -> dict[str, T]:
-    store[key] = value
-    return {key: store[key]}
+    def set_store(key: str, value: T) -> dict[str, T]:
+      store[key] = value
+      return {key: store[key]}
 
-  return (get_store, set_store)
+    return (get_store, set_store)
 
 
-(get, set_store) = use_store()
+  (get, set_store) = use_store()
 
-print(set_store("name", "Kay"))
+  print(set_store("name", "Kay"))
