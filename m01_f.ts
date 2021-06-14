@@ -3,7 +3,7 @@ type BasicPrimitive=boolean|number|string;
 /**
  * Stores key-value variables.
  * 
- * each `key` must be `string` and `value` be scalar (boolean, number, string).
+ * Each `key` must be `string` and `value` be scalar (boolean, number, string).
  * 
  * When called, this returns `getStore()` and `setStore()`:
  * - `getStore(key)`
