@@ -2,7 +2,7 @@ type BasicPrimitive=boolean|number|string;
 
 /**
  * returns `getStore()` and `setStore()`
- *
+ * 
  * 
  */
 function useStore() {
