@@ -1,5 +1,9 @@
 type BasicPrimitive=boolean|number|string;
-
+/**
+ *
+ *
+ * @returns {*} 
+ */
 function useStore() {
 	const store: {[key:string]:BasicPrimitive} = {};
 
