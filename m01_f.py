@@ -3,7 +3,7 @@ T = Union[bool, int, float, str]
 
 
 def use_store():
-""""""
+"""
  * Stores key-value variables.
  * 
  * When called, this returns `getStore()` and `setStore()`:
@@ -13,7 +13,7 @@ def use_store():
  *   - sets `key` and `value`, this overwrites the value when it's already set. Then returns a single `{key:value}` set of onject.
  * 
  * Notice each `key` must be `string` and `value` be scalar (that is, boolean, number, string).
- */
+ */"""
   store: dict[str, T] = {}
 
   def get_store(key: str):
