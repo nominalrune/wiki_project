@@ -17,7 +17,6 @@ function useStore() {
 		return undefined;
 	};
 	const setStore = (key: string, value: BasicPrimitive) => {
-		
 		return { [key]: Object.assign(store, { [key]: value })[key] };
 	};
 	return { getStore, setStore };
