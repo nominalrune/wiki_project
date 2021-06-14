@@ -1,6 +1,6 @@
 from typing import Union
 T = Union[bool, int, float, str]
-x = a
+x = 
 
 def use_store():
   """
