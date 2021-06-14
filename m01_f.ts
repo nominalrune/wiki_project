@@ -1,6 +1,6 @@
 type BasicPrimitive=boolean|number|string;
 /**
- * returns ``
+ * returns `get`
  *
  * 
  */
