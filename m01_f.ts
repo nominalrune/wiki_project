@@ -1,7 +1,7 @@
 type BasicPrimitive=boolean|number|string;
 
 /**
- * stores key-value va
+ * stores key-value var
  * returns `getStore()` and `setStore()`:
  * - `getStore(kry:string)` 
  * 
