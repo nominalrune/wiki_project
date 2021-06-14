@@ -9,7 +9,7 @@ type BasicPrimitive=boolean|number|string;
  * - `setStore(key, value)`
  *   - sets `key` and `value`, this overwrites the value when it's already set. Then returns a single `{key:value}` set of onject.
  * 
- * Notice each `key` must be `string` and `value` be scalar (boolean, number, string).
+ * Notice each `key` must be `string` and `value` be scalar (that isboolean, number, string).
  */
 function useStore() {
 	const store: {[key:string]:BasicPrimitive} = {};
