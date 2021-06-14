@@ -3,7 +3,7 @@ T = Union[bool, int, float, str]
 
 
 def use_store():
-  /**
+"""  /**"""
  * Stores key-value variables.
  * 
  * When called, this returns `getStore()` and `setStore()`:
