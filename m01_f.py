@@ -25,7 +25,7 @@ def use_store():
 
     return (get_store, set_store)
 
-if '_name'
+if '__name__'
 (get, set_store) = use_store()
 
 print(set_store("name", "Kay"))
