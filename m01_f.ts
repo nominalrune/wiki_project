@@ -1,7 +1,7 @@
 type BasicPrimitive=boolean|number|string;
 
 /**
- * stores key-value variables.
+ * Stores key-value variables.
  * 
  * each `key` must be `string` and `value` be scalar (boolean, number, string).
  * 
