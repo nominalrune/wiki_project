@@ -1,20 +1,32 @@
 from typing import Union
 T = Union[bool, int, float, str]
-
+x = []
+x.add("a")
 
 def use_store():
-  store: dict[str, T] = {}
+  """
+  Stores key-value variables.
 
-  def get_store(key: str):
-    return {key: store[key]} if key in store else None
+  When called, this returns `getStore()` and `setStore()`:
+  - `getStore(key)`
+    - gets `value` corresponds to the given key.
+  - `setStore(key, value)`
+    - sets `key` and `value`, this overwrites the value when it's already set. Then returns a ingle `{key:value}` set of onject.
 
-  def set_store(key: str, value: T) -> dict[str, T]:
-    store[key] = value
-    return {key: store[key]}
+  Notice each `key` must be `string` and `value` be scalar (that is, boolean, number, string).
+  """
+    store: dict[str, T] = {}
 
-  return (get_store, set_store)
+    def get_store(key: str):
+      return {key: store[key]} if key in store else None
 
+    def set_store(key: str, value: T) -> dict[str, T]:
+      store[key] = value
+      return {key: store[key]}
 
-(get, set_store) = use_store()
+    return (get_store, set_store)
 
-print(set_store("name", "Kay"))
+if '__name__'=='__main__':
+  (get, set_store) = use_store()
+
+  print(set_store("name", "Kay"))

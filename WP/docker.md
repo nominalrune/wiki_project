@@ -5,7 +5,7 @@
 1. データの用意
   2. WPのデータを根こそぎローカルに落とす
   3. ｍｙSQLのデータを.sqlとして根こそぎローカルに落とす
-  4. .sql内の[[本サイトrootURL]]をすべて[[localhost]]に置換しておく
+  4. .sql内の[[本サイトrootURL]]をすべて[[localhost]]に置換しておく(記事内のリンクは、`/blog/244`のようにrootを省いて書くようにする。)
 5. Docker
   7. webサーバ用Dockerfileを用意。CentOS7コンテナをpullして、Nginxとphp-fpmをインストールし、設定ファイルを書き換える
   8. dbサーバー用Dockerfileを用意。mySQLコンテナをpullして、本サイトの.sqlを読み込ませる
