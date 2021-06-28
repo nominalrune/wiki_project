@@ -1,4 +1,3 @@
-
 List of JS types
 ```ts
 boolean
