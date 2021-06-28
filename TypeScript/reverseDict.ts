@@ -1,26 +1,19 @@
 
-const group= {
-	hokkaido: ['北海道'],
-	tohoku: ['青森県', '秋田県', '岩手県','宮城県', '山形県','福島県'],
-} as const;
-
 type Primitive = number | string;
 type Primitives<T> = T extends infer Primitive? Primitive:Primitive[];
-
 
 interface hash<T>{
 	[key:string]:Primitives<T>,
 }
 
-
-declare class IDict<T>{
+abstract class IDict<T>{
 	protected data:hash<T>
 	constructor(data:hash<T>){this.data=data;}
-	has(query:Primitive):boolean;
-	get(query:Primitive):string;
+	abstract has(query:Primitive):boolean;
+	abstract get(query:Primitive):string;
 }
 
-class ArrayDict<T extends Primitive[]> extends IDict<T>{
+export class ArrayDict<T extends Primitive[]> extends IDict<T>{
 	constructor(data:hash<T>){
 		super(data);
 	}
@@ -40,7 +33,7 @@ class ArrayDict<T extends Primitive[]> extends IDict<T>{
 		}
 	}
 };
-class hashDict<T extends Primitive> extends IDict<T>{
+export class HashDict<T extends object> extends IDict<T>{
 	constructor(data:hash<T>){
 		super(data);
 	}
@@ -51,7 +44,7 @@ class hashDict<T extends Primitive> extends IDict<T>{
 		throw new Error("no results")
 	}
 	has(query:Primitive){
-		try{
+		try{ //FIXME
 			this.get(query);
 			return true;
 		}
@@ -67,25 +60,23 @@ class hashDict<T extends Primitive> extends IDict<T>{
 
 
 
+// type groupValue= typeof group[keyof typeof group][number] 
 
 
 
+// function getKeyFromValue(value:groupValue){
+// 	const parentList=Object.keys(group).filter(k=>value in group[k])
+// 	return value in group? group[value] as const:undefined
+// }
 
 
-function getGroup<T extends keyof typeof group, U extends typeof group[T]>(pref:U){
-	Object.keys(group).map<Pick<typeof group, T>>((name as U)=>{
-		if(group[name].includes())
-	})
-}
-
-
-function belongsTo(pref: string) {
-	return Object.keys(group).find(
-		(branch, index) => {
-			if (branch in group) {
-				return group[branch].find((item, index) => (
-					item === pref ? branch : false
-				))
-			}
-		})
-};
+// function belongsTo(pref: string) {
+// 	return Object.keys(group).find(
+// 		(branch, index) => {
+// 			if (branch in group) {
+// 				return group[branch].find((item, index) => (
+// 					item === pref ? branch : false
+// 				))
+// 			}
+// 		})
+// };

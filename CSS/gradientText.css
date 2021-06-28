@@ -1,0 +1,19 @@
+.section-hero .hero-headline {
+    background: radial-gradient(#eff1ff, #000);
+    background-size: 100% 200%;
+    background-position: 50% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 16px;
+    padding-bottom: 12px;
+}.section-hero .hero-headline {
+    background: radial-gradient(#eff1ff, #000);
+    background-size: 100% 200%;
+    background-position: 50% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 16px;
+    padding-bottom: 12px;
+}
