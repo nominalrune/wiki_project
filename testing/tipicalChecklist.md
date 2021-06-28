@@ -6,9 +6,9 @@ number
 string
 bigint
 symbol
+function
 undefined // typeof instance === "undefined"
 null // typeof instance === "object"
-function
 
 Boolean // typeof instance === "boolean"
 Number // typeof instance === "number"
