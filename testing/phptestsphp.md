@@ -100,7 +100,7 @@ it("should not be possible for the contestant list to be null", function(){
     assertNotNull($epreuve->getListeParticipants());
 }); 
 
-// it("should not be possible for listeParticipants to be equal to 0", function(){
+<!-- // it("should not be possible for listeParticipants to be equal to 0", function(){
 //     $epreuve = new Epreuve();
 //     assertEquals(0,$epreuve->getNombreParticipants());
-// });
+// }); -->
