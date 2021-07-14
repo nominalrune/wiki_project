@@ -1,15 +1,15 @@
 class User { };
-class Group { 
-	constructor(...users:User[]){}
+class Group {
+	constructor(...users: User[]) { }
 };
 
 class Task {
 	accessGroup: Group;
 	assignee: User;
-	createdAt: Date;
+	readonly createdAt: Date;
 	updatedAt: Date;
 	constructor(
-		readonly id: number,
+		public readonly id: number,
 		public title: string,
 		public creator: User,
 		assignee?: User,
@@ -33,11 +33,18 @@ class Task {
 		this.updatedAt = updatedAt ?? this.createdAt;
 	}
 
-	update(props: Partial<Task>) { // NOTE I hate this.
+	/** updates task's props except `id` and `createdAt`.
+	 * @param task An Object only has Task's props to update. 
+	 */
+	update(props: Partial<Task>) {
 		Object.entries(props).forEach(([k, v]) => {
-			if (k === 'id') { throw new Error("you can't update id."); }
-			this[k] = v;
+			if (k === 'id' || k === 'createdAt') {
+				// skip overwriting.
+			} else if (k in this) {
+				this[k] = v;
+			}
 		});
 		return this;
 	}
 }
+

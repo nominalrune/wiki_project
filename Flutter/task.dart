@@ -1,10 +1,12 @@
-class User {};
+class User {
+  User();
+}
 class Group{
-	Group.one(Use user);
-};
+	Group.one(User user);
+}
 
 class Task{
-  int id;
+  final int id;
   String title;
   User creator;
   late User assignee;
@@ -19,7 +21,7 @@ class Task{
   DateTime? due;
   DateTime? startedAt;
   DateTime? finishedAt;
-  late DateTime createdAt;
+  late final DateTime createdAt;
   late DateTime updatedAt;
   Task(
     this.creator,
@@ -44,6 +46,9 @@ class Task{
     this.createdAt = createdAt ?? DateTime.now();
     this.updatedAt = updatedAt ?? this.createdAt;
   }
+
+  /// updates task's props (except [id] and [createdAt])
+  /// with [props], which should be an Object that has Task's props to update.
   Task update(TaskField props) { // NOTE I hate this.
     title = props.title ?? title;
     creator = props.creator ?? creator;
@@ -59,7 +64,6 @@ class Task{
     due = props.due ?? due;
     startedAt = props.startedAt ?? startedAt;
     finishedAt = props.finishedAt ?? finishedAt;
-    createdAt = props.createdAt ?? createdAt;
     updatedAt = props.updatedAt ?? updatedAt;
     return this;
   }
