@@ -1,4 +1,6 @@
 # クラス設計.md
+
+# 
 ```mermaid
 classDiagram
     class BaseRepository {
