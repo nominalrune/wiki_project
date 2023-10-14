@@ -30,7 +30,7 @@ classDiagram
         +toArray(): (string | number)[]
     }
     BaseRepository <|-- UserRepository :inherits
-    UserData <.. BaseRepository :dependes on
+    Arrayable <.. BaseRepository :dependes on
     Arrayable <|.. UserData :realizes
 ```
 
