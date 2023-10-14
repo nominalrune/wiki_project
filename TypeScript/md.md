@@ -11,7 +11,7 @@ classDiagram
         +execute(sql: string)
         +insertData(data: T)
         +updateData(data: T)
-        +create(...args: any[]): T
+        +create(...args: any[]) T
         +update(...args: any[]): T
     }
     class UserRepository {
