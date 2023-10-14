@@ -1,6 +1,6 @@
 # クラス設計.md
 
-# 
+## 継承での実装
 ```mermaid
 classDiagram
     class BaseRepository {
