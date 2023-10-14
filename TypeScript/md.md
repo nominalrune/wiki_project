@@ -31,7 +31,7 @@ classDiagram
     }
     UserRepository --|> BaseRepository :inherits
     Arrayable <.. BaseRepository :dependes on
-    ..|> ArrayableUserData  :realizes
+    bleUserData  Arrayable ..|> UserData:realizes
 ```
 
 
