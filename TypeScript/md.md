@@ -12,7 +12,7 @@ classDiagram
         +insertData(data: T)
         +updateData(data: T)
         +create(...args: any[]) T
-        +update(...args: any[]): T
+        +update(...args: any[]) T
     }
     class UserRepository {
         +create(name: string, email: string, password: string)
