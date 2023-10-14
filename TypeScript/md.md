@@ -5,6 +5,7 @@
 classDiagram
     class BaseRepository {
         <<abstract>>
+        <<abstract>>
         +connect()
         +close()
         +execute(sql: string)
