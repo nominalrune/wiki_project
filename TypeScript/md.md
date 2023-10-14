@@ -27,7 +27,7 @@ classDiagram
     }
     class Arrayable {
         <<interface>>
-		<<T>>
+        <<T>>
         +toArray(): (string | number)[]
     }
     UserRepository --|> BaseRepository :inherits
