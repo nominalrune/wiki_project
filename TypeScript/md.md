@@ -35,4 +35,8 @@ classDiagram
 ```
 
 
-## 
+## Composition pattern
+
+```mermaid
+
+```
