@@ -1,1 +1,0 @@
-https://gist.githubusercontent.com/nominalrune/df0d03d7822f25c8c733c2b1c925a323/raw/48494c53363221dafbf18d9636b4f6dc379de92b/inheritance.ts
