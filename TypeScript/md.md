@@ -23,8 +23,16 @@ classDiagram
         -email: string
         -password: string
         +toArray(): (string | number)[]
-        +construcinterface IDatabaseConnection {
-	execute(sql: string): any;
-}
-
+        +constructor(name: string, email: string, password: string)
+    }
+    class Arrayable {
+        <<interface>>
+        +toArray(): (string | number)[]
+    }
+    BaseRepository <|-- UserRepository :inherits
+    UserData <.. BaseRepository :dependes on
+    Arrayable <|.. UserData :realizes
 ```
+
+
+## 
